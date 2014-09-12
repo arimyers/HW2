@@ -1,4 +1,5 @@
-#hide{display:none;}
+#footer{display:none;}
+.hide{display:none;}
 @media print {
   body {
     /* IE4-8 and 9 (deprecated). */
