@@ -6,14 +6,15 @@
 <head>
 	<title>Aric's Resume</title>
 	<link rel="stylesheet" type="text/css" href="aric_style.css" />
+	<link rel="stylesheet" type="text/javascript" />
 </head>
 
 
 <body>
 <div style="font-family:Lucida Bright">
 	<div style="padding-left:10%; padding-right:10%">
-		<h1 ID="welcome">Aric Myers</h1>
-		<div align="left">
+		<h1 style="text-align:center">Aric Myers</h1>
+		<div style="align:left">
 		<h3 class="head3" style="text-decoration: underline">Personal Info</h3>
 		<p class="p3"><b>Address:</b> 504 Bowery St. Iowa City, IA 52240</p>
 		<p class="p3"><b>Phone Number:</b> (319) 930-0868</p>
@@ -96,8 +97,9 @@
 	<table style="width:100%">
 		<tr>
 		<td style="text-align:center; width:100%">
-		<button style="width:50%; height:70px; font-size: 200%" onclick="myFunction()"><b>Print this page</b></button>
-		<script>function myFunction() {window.print();}</script>
+		<button style="width:50%; height:70px; font-size: 200%" onclick="print()">Print this page</button>
+		<script> function print() {window.print();} </script>
+		
 		</td>
 		</tr>
 	</table>
